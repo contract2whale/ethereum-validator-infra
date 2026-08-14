@@ -1,0 +1,13 @@
+# Before the first push, CHAPTER 1 renders contract2whale to the verified GitHub organization.
+/.github/workflows/        @contract2whale/platform-approvers
+/.github/CODEOWNERS        @contract2whale/security-approvers
+/primary-aws/terraform/    @contract2whale/platform-approvers
+/primary-aws/terraform/ci/runtime-inputs.json @contract2whale/security-approvers
+/primary-aws/bootstrap/    @contract2whale/security-approvers
+/primary-aws/bootstrap/cicd/parameters.json @contract2whale/security-approvers
+/primary-aws/ansible/      @contract2whale/platform-approvers
+/standby-aws/terraform/    @contract2whale/platform-approvers
+/standby-aws/terraform/ci/runtime-inputs.json @contract2whale/security-approvers
+/standby-aws/ansible/      @contract2whale/platform-approvers
+/shared/                   @contract2whale/security-approvers
+/drills/                   @contract2whale/security-approvers
